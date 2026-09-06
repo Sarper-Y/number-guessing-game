@@ -1,17 +1,19 @@
  Number Guessing Game
 
-A simple number guessing game written in Python.
+A command-line Number Guessing Game written in Python. The program generates a random number between 1 and 100, challenging the player to guess it within a limited number of attempts.
 
- How It Works
-- The program picks a random number between 1 and 100.
-- The user has 10 attempts to guess the correct number.
-- After each guess, the program gives feedback: "too high" or "too low".
-- If the input is outside the 1-100 range, a warning is shown and the attempt is not counted.
+ Features
+
+- Attempt Limit: Players have 7 attempts to guess the secret number.
+- Input Validation: Error handling (`try-except`) prevents program crashes when invalid non-integer inputs are provided.
+- Dynamic Hints: Provides immediate feedback indicating whether the target number is higher or lower than the current guess.
+- Replay Loop: Option to start a new game session immediately after finishing a round.
 
  How to Run
-Run the main.py file:
 
+1. Clone or download this repository to your local machine.
+2. Open a terminal/command prompt in the project directory.
+3. Run the application using Python:
+
+```bash
 python main.py
-
- Technologies Used
-- Python 3
