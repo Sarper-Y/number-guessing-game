@@ -1,0 +1,10 @@
+# Varsayılan yoksayılan dosyalar
+/shelf/
+/workspace.xml
+# Düzenleyici tabanlı HTTP İstemcisi istekleri
+/httpRequests/
+# Sorgu dosyalarını içeren yoksayılan varsayılan klasör
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
